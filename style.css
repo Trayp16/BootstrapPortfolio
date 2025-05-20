@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.portfolio-header {
+    /* Bootstrap classes bg-light py-5 already handle background and padding.
+       You can add more specific styles here if needed. */
+    margin-bottom: 2rem; /* Added some bottom margin for separation */
+}
+
+.portfolio-header h1 {
+    font-weight: 300; /* Lighter font for the main heading */
+}
+
+.container.mt-4 .row {
+    margin-bottom: 1.5rem; /* Space between rows of projects */
+}
+
+.project-item {
+    margin-bottom: 30px; /* Space below each project item, especially on smaller screens when they stack */
+    text-align: center;
+    background-color: #f8f9fa; /* Light background for project items */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.project-item:hover {
+    transform: translateY(-5px); /* Lift item slightly on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Enhance shadow on hover */
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+    margin-bottom: 10px; /* Space between image and any potential text/link below if not wrapped */
+}
+
+.project-item a {
+    display: block; /* Make the entire project item area part of the link if needed */
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent */
+}
+
+/* Optional: Add specific styles for project titles or descriptions if you add them within .project-item */
+
+.project-item h5 {
+    margin-top: 10px;
+    color: #333;
+}
+.project-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+Basic footer styling if you add one */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #343a40;
+    color: white;
+}
